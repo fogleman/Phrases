@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Two-Word Phrases</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-narrow">
+            <div class="header">
+                <!--
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                -->
+                <div class="pull-right" style="margin-top: 8px;">
+                    
+                </div>
+                <h3>Random Two-Word Phrases</h3>
+            </div>
+            <p class="lead">
+                The phrases below were generated randomly. Click the button to generate new ones. Use them for creative thinking, code names, password phrases, band names, etc.
+            </p>
+            <div class="button-row">
+                <a class="btn btn-large btn-primary" href="" onclick="update(); return false;">Generate Phrases</a>
+            </div>
+            <div class="row-fluid words-row">
+                <div class="span4">
+                    <h4>Adjective + Noun</h4>
+                    <div id="adjective_noun"></div>
+                </div>
+                <div class="span4">
+                    <h4>Noun + Noun</h4>
+                    <div id="noun_noun"></div>
+                </div>
+                <div class="span4">
+                    <h4>Verb + Noun</h4>
+                    <div id="verb_noun"></div>
+                </div>
+            </div>
+            <div class="row-fluid words-row">
+                <div class="span4">
+                    <h4>Adjective + Noun*</h4>
+                    <div id="a_adjective_noun"></div>
+                </div>
+                <div class="span4">
+                    <h4>Noun + Noun*</h4>
+                    <div id="a_noun_noun"></div>
+                </div>
+                <div class="span4">
+                    <h4>Verb + Noun*</h4>
+                    <div id="a_verb_noun"></div>
+                </div>
+            </div>
+            <div class="button-row">
+                <a class="btn btn-large btn-primary" href="" onclick="update(); return false;">Generate Phrases</a>
+            </div>
+            <div class="footer">
+                <p style="float: left; margin-top: 12px;"><strong>*</strong> The second batch of phrases use <abbr title="the repetition of usually initial consonant sounds in two or more neighboring words">alliteration</abbr> (sort of).</p>
+                <p>
+                    <a href="http://www.michaelfogleman.com/"><strong>michaelfogleman.com</strong></a> ::
+                    <a href=""><img width=44 height=44 src="img/github-logo.png"></a>
+                </p>
+            </div>
+        </div>
+        <script src="jquery/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/words.js"></script>
+        <script src="js/phrases.js"></script>
+    </body>
+</html>

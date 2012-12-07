@@ -1,0 +1,28 @@
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.header {
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    border-bottom: 1px dotted #999;
+}
+
+.button-row {
+    text-align: center;
+    margin: 1em;
+}
+
+.words-row {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer {
+    text-align: right;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-top: 1px dotted #999;
+}
